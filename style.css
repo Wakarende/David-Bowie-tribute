@@ -112,3 +112,12 @@ body {
 figcaption {
   font-size: 12px;
 }
+
+/* Footer  */
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
