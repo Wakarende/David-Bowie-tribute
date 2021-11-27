@@ -1,0 +1,25 @@
+:root {
+  --mainColour: #030201;
+  --textColour: #F3F6FB;
+  --secColour: #8b0000;
+}
+
+html {
+  font-family: 'Bai Jamjuree',
+    sans-serif;
+  font-family: 'Comfortaa',
+    cursive;
+  font-family: 'Kumbh Sans',
+    sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 11px;
+}
+
+body {
+  background-color: var(--mainColour);
+  color: var(--textColour);
+}
