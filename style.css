@@ -14,6 +14,7 @@ html {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  cursor: pointer;
 }
 
 p {
@@ -31,6 +32,7 @@ body {
   background-size: cover;
   max-width: 100%;
   height: 100vh;
+  margin-bottom: 185px;
 }
 
 .header-text {
@@ -68,3 +70,45 @@ body {
 
 /* Header Media Queries  */
 @media screen and (max-width:640px) {}
+
+/* tribute info */
+.image {
+  width: 600px;
+  height: auto;
+}
+
+.tribute-flex {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 50px;
+  margin-top: 185px;
+  margin-bottom: 80px;
+}
+
+.tribute-text {
+  font-size: 20px;
+}
+
+.btn {
+  border-radius: 10px;
+  border: solid var(--textColour) 1px;
+
+}
+
+.btn:hover {
+  background-color: var(--secColour);
+  border: solid 1px var(--secColour);
+}
+
+.tribute-link {
+  color: var(--textColour);
+  text-decoration: none;
+}
+
+.tribute-link:hover {
+  color: var(--textColour);
+}
+
+figcaption {
+  font-size: 12px;
+}
