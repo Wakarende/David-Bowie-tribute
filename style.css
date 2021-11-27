@@ -92,7 +92,6 @@ body {
 .btn {
   border-radius: 10px;
   border: solid var(--textColour) 1px;
-
 }
 
 .btn:hover {
@@ -111,6 +110,25 @@ body {
 
 figcaption {
   font-size: 12px;
+}
+
+/* Tribute info media queries  */
+@media screen and (max-width:640px) {
+  .image {
+    width: 300px;
+    height: auto;
+  }
+
+  .tribute-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-div {
+    margin-bottom: 50px;
+  }
 }
 
 /* Footer  */
